@@ -9,6 +9,7 @@ fn main() {
     let mut rpnstack = rpn::rpn_stack::RPNStack::new();
 
     println!("Welcome to your RPN calculator written in Rust !");
+    println!("Type h to print the help menu");
 
     loop {
         let mut user_line = String::new();
